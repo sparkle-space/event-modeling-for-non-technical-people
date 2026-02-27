@@ -8,14 +8,14 @@ Examples, templates, and an LLM prompt for building Event Models, accompanying t
 
 All examples use the hotel booking domain from the book and are written in the [Event Model format](https://github.com/sparkle-space/event-modeler/blob/main/docs/event-model-format-spec.md) with [emlang](https://github.com/emlang-project/spec) slice definitions.
 
-| File | Description | Book Chapter |
-|------|-------------|--------------|
-| [complete-slice.md](examples/hotel-booking/complete-slice.md) | Complete booking slice with automation — all 4 swimlanes in one slice | Ch. 2 |
-| [full-model.md](examples/hotel-booking/full-model.md) | Full hotel booking model — 4 slices spanning the entire system | Ch. 3 |
-| [booking-slice.md](examples/hotel-booking/booking-slice.md) | Booking slice — guest books a room | Ch. 3 |
-| [search-slice.md](examples/hotel-booking/search-slice.md) | Search slice — view-only read model | Ch. 3 |
-| [cancellation-slice.md](examples/hotel-booking/cancellation-slice.md) | Cancellation slice — guest cancels a booking | Ch. 3 |
-| [automation-slice.md](examples/hotel-booking/automation-slice.md) | Automation slice — confirmation email triggered by booking | Ch. 3 |
+| File | Preview | Description | Book Chapter |
+|------|---------|-------------|--------------|
+| [complete-slice.md](examples/hotel-booking/complete-slice.md) | ![Complete slice](examples/hotel-booking/images/ch02-complete-slice.png) | Complete booking slice with automation — all 4 swimlanes in one slice | Ch. 2 |
+| [full-model.md](examples/hotel-booking/full-model.md) | ![Full model](examples/hotel-booking/images/ch03-full-model.png) | Full hotel booking model — 4 slices spanning the entire system | Ch. 3 |
+| [booking-slice.md](examples/hotel-booking/booking-slice.md) | ![Booking slice](examples/hotel-booking/images/ch03-booking-slice.png) | Booking slice — guest books a room | Ch. 3 |
+| [search-slice.md](examples/hotel-booking/search-slice.md) | ![Search slice](examples/hotel-booking/images/ch03-search-slice.png) | Search slice — view-only read model | Ch. 3 |
+| [cancellation-slice.md](examples/hotel-booking/cancellation-slice.md) | ![Cancellation slice](examples/hotel-booking/images/ch03-cancellation-slice.png) | Cancellation slice — guest cancels a booking | Ch. 3 |
+| [automation-slice.md](examples/hotel-booking/automation-slice.md) | ![Automation slice](examples/hotel-booking/images/ch03-automation-slice.png) | Automation slice — confirmation email triggered by booking | Ch. 3 |
 
 ## Templates
 
