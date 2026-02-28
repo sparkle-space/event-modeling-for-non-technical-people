@@ -25,10 +25,10 @@ The cancellation slice. Shows how a guest cancels a booking: Booking Details wir
 slices:
   CancelBooking:
     steps:
-      - t: BookingDetailsScreen
+      - t: BookingDetails
       - v: BookingDetails
       - c: CancelBooking
       - e: BookingCancelled
       - v: CancellationConfirmation
-      - t: CancellationConfirmationScreen
+      - t: CancellationConfirmation
 ```

@@ -29,5 +29,5 @@ slices:
       - e: RoomBooked
       - e: BookingCancelled
       - v: RoomAvailabilityCalendar
-      - t: RoomAvailabilityScreen
+      - t: RoomAvailability
 ```

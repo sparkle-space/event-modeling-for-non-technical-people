@@ -19,7 +19,7 @@ Event Modeling is a method for designing information systems by laying out the l
 - **View (Read Model)** — A projection built from events that answers a specific question (e.g., `RoomAvailabilityCalendar`, `BookingConfirmation`). Views are derived and can always be rebuilt from events.
 - **Trigger (Wireframe)** — A UI screen or external input that initiates a command or displays a view.
 - **Automation** — A process that reacts to an event and issues a command without human intervention.
-- **Translation** — A process that reacts to an event in one bounded context and issues a command in another (often an external system).
+- **Translation** — A pattern where data from an external system is recorded as an Event without a Command. The external system has already made the decision; the internal system records the fact.
 - **Slice** — A vertical unit of work that shows one complete flow through the system, crossing all four swimlanes (wireframes, commands/views, events, automations).
 
 ### The 4 Patterns
@@ -35,8 +35,8 @@ Every slice in an Event Model follows one of these patterns:
 3. **Automation Pattern** — An event triggers an automated process that issues a command, producing a new event.
    - Flow: `event → automation → command → event`
 
-4. **Translation Pattern** — An event in one context triggers a command in another context (often an external system).
-   - Flow: `event → translation → command → event`
+4. **Translation Pattern** — Data from an external system is recorded as an event. No command is needed because the external system has already made the decision.
+   - Flow: `external system → translation → event`
 
 ### Output Format
 

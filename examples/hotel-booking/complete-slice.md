@@ -30,7 +30,7 @@ slices:
       - c: BookRoom
       - e: RoomBooked
       - v: BookingConfirmation
-      - t: BookingConfirmationScreen
+      - t: BookingConfirmation
 ```
 
 ### Slice: ConfirmationEmail
