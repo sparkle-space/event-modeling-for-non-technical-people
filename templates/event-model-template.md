@@ -23,10 +23,10 @@ tags:
 ## Slices
 
 <!-- Define one slice per vertical unit of work. Each slice follows a pattern:
-     - Command pattern: trigger -> command -> event -> view
+     - Command pattern: trigger -> view -> command -> event -> view
      - View pattern: events -> view -> trigger
      - Automation pattern: event -> automation -> command -> event
-     - Translation pattern: event -> translation -> command (external) -> event
+     - Translation pattern: external system -> translation -> event
 
      Use emlang notation inside fenced code blocks. -->
 
@@ -39,9 +39,10 @@ slices:
   YourSliceName:
     steps:
       - t: YourTrigger
+      - v: YourInputView
       - c: YourCommand
       - e: YourEvent
-      - v: YourView
+      - v: YourResultView
 ```
 
 ## Scenarios
