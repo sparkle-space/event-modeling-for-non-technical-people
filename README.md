@@ -6,7 +6,7 @@ Examples, templates, and an LLM prompt for building Event Models, accompanying t
 
 ## Examples
 
-All examples use the hotel booking domain from the book and are written in the [Event Model format](https://github.com/sparkle-space/event-modeler/blob/main/docs/event-model-format-spec.md) with [emlang](https://github.com/emlang-project/spec) slice definitions.
+All examples use the hotel booking domain from the book and are written in the Event Model format with [emlang](https://github.com/emlang-project/spec) slice definitions.
 
 | File | Preview | Description | Book Chapter |
 |------|---------|-------------|--------------|
@@ -33,9 +33,6 @@ Use the prompt with or without the book as context. It produces a complete Event
 
 ## Related
 
-- [Event Modeler](https://github.com/sparkle-space/event-modeler) — Visual, collaborative event modeling for system design
-  - [Product Spec](https://github.com/sparkle-space/event-modeler/blob/main/docs/product-spec.md)
-  - [Event Model Format Spec](https://github.com/sparkle-space/event-modeler/blob/main/docs/event-model-format-spec.md)
 - [sparkle.space](https://sparkle.space)
 
 ## License
